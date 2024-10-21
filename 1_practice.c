@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int *ptr;
+    int a;
+    int *ptr=&a;
     scanf("%d",ptr);
-    printf("%d...%d",*ptr/10,*ptr%10);
+    printf("%d...%d\n",*ptr/10,*ptr%10);
     return 0;
 }
